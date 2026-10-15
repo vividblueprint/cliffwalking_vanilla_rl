@@ -1,0 +1,13 @@
+[project]
+name = "cliffwalking-vanilla-rl"
+version = "0.1.0"
+description = "A simple CliffWalking environment with tabular Q-learning"
+readme = "README.md"
+authors = [
+    { name = "vividblueprint", email = "shamimkhan8161@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.4",
+    "opencv-python>=5.0.0.93",
+]
