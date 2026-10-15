@@ -2,8 +2,6 @@
 
 A small, deterministic CliffWalking environment and a tabular Q-learning agent.
 
-![q_cliffwalking](./docs/image.png)
-
 ## Run
 
 Install dependencies and train:
