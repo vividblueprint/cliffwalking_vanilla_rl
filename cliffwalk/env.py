@@ -100,7 +100,7 @@ class CliffWalkingEnv:
                 "CliffWalking environment",
                 draw_board(self, agent_position=self.position(self.state)),
             )
-            cv2.waitKey(max(1, 1000 // self.metadata["render_fps"]))
+            cv2.waitKey(max(1, 10 // self.metadata["render_fps"]))
             self._window_open = True
 
     def close(self) -> None:

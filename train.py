@@ -14,7 +14,7 @@ from cliffwalk.visualize import draw_board
 
 
 def train(args: argparse.Namespace):
-    env = CliffWalkingEnv(args.rows, args.cols)
+    env = CliffWalkingEnv(args.rows, args.cols, args.render_mode)
     agent = make_agent(
         args.agent,
         env.n_states,
@@ -54,7 +54,7 @@ def train(args: argparse.Namespace):
 
         agent.decay_exploration()
         returns.append(total)
-        if (episode + 1) % 50 == 0 or episode == 0:
+        if (episode + 1) % 200 == 0 or episode == 0:
             average = np.mean(returns[-50:])
             print(f"Episode {episode + 1}/{args.episodes}: average return {average:.1f}")
 
@@ -83,6 +83,7 @@ def main() -> None:
     parser.add_argument("--epsilon-min", type=float, default=0.05)
     parser.add_argument("--epsilon-decay", type=float, default=0.995)
     parser.add_argument("--seed", type=int, default=7)
+    parser.add_argument("--render_mode", type=str, default=None)
     parser.add_argument(
         "--agent",
         choices=("q_learning", "double_q", "expected_sarsa", "sarsa", "sarsa_lambda", "monte_carlo"),

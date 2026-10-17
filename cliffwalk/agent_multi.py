@@ -47,7 +47,7 @@ class _TabularAgent:
         if explore and self.rng.random() < self.epsilon:
             return int(self.rng.integers(self.q.shape[1]))
         values = self.q[state]
-        best_actions = np.flatnonzero(values == values.max())
+        best_actions = np.flatnonzero(values == values.max()) # return the indices of nonzero elements
         return int(self.rng.choice(best_actions))
 
     def decay_exploration(self) -> None:
