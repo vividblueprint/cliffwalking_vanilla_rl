@@ -1,8 +1,38 @@
-# CliffWalking with Q-learning
+<div align="center">
 
-A small, deterministic CliffWalking environment and a tabular Q-learning agent.
+<img src="./assets/image.png" alt="Repository Banner" width="800">
 
-![q_cliffwalking](./docs/image.png)
+<h1 align="center" >
+
+<img width="25px" src="https://em-content.zobj.net/source/microsoft-teams/337/heart-with-ribbon_1f49d.png"/>
+<img width="25px" src="https://em-content.zobj.net/source/microsoft-teams/337/heart-with-ribbon_1f49d.png"/>
+<img width="25px" src="https://em-content.zobj.net/source/microsoft-teams/337/heart-with-ribbon_1f49d.png"/>
+<b>Cliff Walking with Q-learning</b>
+<img width="25px" src="https://em-content.zobj.net/source/microsoft-teams/337/heart-with-ribbon_1f49d.png"/>
+<img width="25px" src="https://em-content.zobj.net/source/microsoft-teams/337/heart-with-ribbon_1f49d.png"/>
+<img width="25px" src="https://em-content.zobj.net/source/microsoft-teams/337/heart-with-ribbon_1f49d.png"/>
+
+</h1>
+
+[![GitHub](https://img.shields.io/badge/GitHub-vividblueprint-181717?logo=github&logoColor=white)](https://github.com/vividblueprint)
+[![Issues](https://img.shields.io/github/issues/vividblueprint/cliffwalking_vanilla_rl?style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/vividblueprint/cliffwalking_vanilla_rl?style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl/pulls)
+[![Contributors](https://img.shields.io/github/contributors/vividblueprint/cliffwalking_vanilla_rl?style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/vividblueprint/cliffwalking_vanilla_rl?style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl/stargazers)
+[![Forks](https://img.shields.io/github/forks/vividblueprint/cliffwalking_vanilla_rl?style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl/forks)
+[![Watchers](https://img.shields.io/github/watchers/vividblueprint/cliffwalking_vanilla_rl?style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl/watchers)
+[![Last Commit](https://img.shields.io/github/last-commit/vividblueprint/cliffwalking_vanilla_rl?style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl/commits)
+[![Monthly Commits](https://img.shields.io/github/commit-activity/m/vividblueprint/cliffwalking_vanilla_rl?style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl/commits)
+[![Languages](https://img.shields.io/github/languages/count/vividblueprint/cliffwalking_vanilla_rl?style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl)
+[![Code Size](https://img.shields.io/github/languages/code-size/vividblueprint/cliffwalking_vanilla_rl?style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl)
+[![Repo Size](https://img.shields.io/github/repo-size/vividblueprint/cliffwalking_vanilla_rl?style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl)
+[![Total Commits](https://img.shields.io/github/commit-activity/t/vividblueprint/cliffwalking_vanilla_rl?style=flat&label=Total%20Commits)](https://github.com/vividblueprint/cliffwalking_vanilla_rl/commits)
+[![Files](https://img.shields.io/github/directory-file-count/vividblueprint/cliffwalking_vanilla_rl?type=file&style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl/tree/HEAD)
+[![License](https://img.shields.io/github/license/vividblueprint/cliffwalking_vanilla_rl?style=flat)](https://github.com/vividblueprint/cliffwalking_vanilla_rl/blob/HEAD/LICENSE)
+
+</div>
+
+---
 
 ## Run
 
